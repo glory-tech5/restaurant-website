@@ -231,3 +231,85 @@
     }
 
 }
+.hero2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    mim-height: 80vh;
+    background-image:url('../assets/images/background-image.png') ;
+    color: white;
+    padding: 100px 0;
+}
+.hero button{
+    margin: 2px;
+    padding: 2px;
+    background-color: #060666;
+    color: white;
+}
+.hero button:hover{
+    color: rgb(255, 165, 0);
+    
+}
+.passion{ 
+    display: flex;
+    justify-content: space-between;
+    align-item : center;
+    padding: 20px;
+}
+.passion-1,.passion-2{
+      max-width: 60% ; 
+      padding: ;
+}
+.passion-1 button{
+    padding: 6px;
+    background-color: #060666;
+    color: white;
+
+}
+.passion-1 button:hover{
+    color: rgb(255, 165, 0);
+
+}
+.prom{
+    background-color: #060666;
+    color: white;
+}
+.prom h2{
+    text-align: center;
+}
+.promise{
+    display :flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    padding: 8px;
+    gap: 40px;
+}
+.philo{
+    li
+}
+.philo h2{
+    text-align: center;
+    padding: 4px;
+    margin-top: 6px;
+} 
+
+.philosophy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.philosophy-1,.philosophy-2{
+    max-width: 60%;
+}
+.philosophy-2 button{
+    background-color: #060666;
+    color: white;
+    padding: 4px;
+    margin: 3px;
+}
+.philosophy-2 button:hover{
+    color:  rgb(255, 165, 0);;
+}
