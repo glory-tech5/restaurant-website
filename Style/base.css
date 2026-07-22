@@ -225,3 +225,110 @@
     }
 
 }
+/*.hero2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    mim-height: 80vh;
+    background-image:url('../assets/images/background-image.png') ;
+    color: white;
+    padding: 100px 0;
+
+}*/
+.hero button{
+    margin: 2px;
+    padding: 2px;
+    background-color: #060666;
+    color: white;
+}
+.hero button:hover{
+    color: rgb(255, 165, 0);
+    
+}
+.passion{ 
+    display: flex;
+    justify-content: space-evenly;
+    align-item : center;
+    margin-top: 60px;
+    gap: 40px;
+}
+.passion-1{
+    padding-left: 40px;
+}
+.passion p{
+    margin-top: 2px;
+    font-size: small;
+ 
+}
+.passion-1,.passion-2{
+      max-width: 60% ; 
+      padding: ;
+      margin-bottom: 1px;
+}
+
+.passion-2 > img{
+    width: 50%;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+.passion-1 button{
+    padding: 6px;
+    background-color: #060666;
+    color: white;
+    margin-top: 5px;
+
+}
+.passion-1 button:hover{
+    color: rgb(255, 165, 0);
+
+}
+.prom{
+    background-color: #060666;
+    color: white;
+}
+.prom h2{
+    text-align: center;
+}
+.promise{
+    display :flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    padding: 8px;
+    gap: 40px;
+}
+.philo{
+    li
+}
+.philo h2{
+    text-align: center;
+    padding: 4px;
+    margin-top: 6px;
+} 
+
+.philosophy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.philosophy-1,.philosophy-2{
+    max-width: 60%;
+}
+.philosophy-2{
+   margin: 1px; 
+}
+.philosophy-2 button{
+    background-color: #060666;
+    color: white;
+    padding: 4px;
+    margin: 3px;
+}
+.philosophy-2 button:hover{
+    color:  rgb(255, 165, 0);;
+}
+.philosophy-1 img{
+    width: 50%;
+}
