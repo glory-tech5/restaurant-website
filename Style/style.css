@@ -17,6 +17,7 @@
     position: fixed;
     width: 100%;
     color: white;
+    justify-content: flex-end;
    
 }
 .nav-links{
@@ -62,6 +63,7 @@ body{
     list-style: none;
     width: 100%;
     gap: 10pxS;
+    justify-content: flex-end;
 }
 
 .nav-links img{
