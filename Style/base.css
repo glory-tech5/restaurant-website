@@ -264,9 +264,9 @@
  
 }
 .passion-1,.passion-2{
-      max-width: 60% ; 
-      padding: ;
-      margin-bottom: 1px;
+    max-width: 60% ; 
+    padding: 8px;
+    margin-bottom: 1px;
 }
 
 .passion-2 > img{
@@ -301,9 +301,7 @@
     padding: 8px;
     gap: 40px;
 }
-.philo{
-    li
-}
+
 .philo h2{
     text-align: center;
     padding: 4px;
@@ -320,7 +318,7 @@
     max-width: 60%;
 }
 .philosophy-2{
-   margin: 1px; 
+margin: 1px;
 }
 .philosophy-2 button{
     background-color: #060666;
@@ -360,7 +358,8 @@
     display: grid;
     border-radius: 10px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 70px;
+    font-size: 7
+    60px;
     font-weight: bolder;
     align-items:center;
     text-align: center;
@@ -374,13 +373,13 @@
     display:grid;
     width: 100%;
     grid-template-columns: repeat(2, minmax(0,1fr));
-    grid-row: row;
-    -ms-flex-order: initial;
-    gap: 20px;
-    padding: 20px;
-    margin:20px ;
+    gap: 10px;
 }
-
+.food-container img{
+    height: 259px;
+    object-fit: cover;
+    width: 100%;
+}
 .food-cards{
     padding: 10px;
     width:100%;
@@ -399,7 +398,7 @@
     background-color: fixed;
     padding: 20px;
     font-family:'Times New Roman', Times, serif;
-    font-size: 45px;
+    font-size: 30px;
     margin: 10px;
     width: 100%;
     color:#333;
@@ -409,7 +408,7 @@
 
 .price{
     display: grid;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
     color: #456556;
     margin: 15px 0;
@@ -428,16 +427,17 @@
 .order-btn{
     display: grid;
     width: 50%;
-    padding: 10px;
+    padding: 5px;
     background-color: fixed;
     color: #08080a;
     border-radius: 30px;
-    text-transform: uppercase;
+    text-transform:capitalize;
     font-size:40px;
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease;
     margin: 3% 43%;
+    text-decoration: none;
 }
 
 .order-btn:hover{
@@ -457,7 +457,7 @@
 }
 
 .star {
-    font-size: 70px;
+    font-size: 50px;
     cursor: pointer;
     color: #ddd;
     transition: all 0.2s ease;
